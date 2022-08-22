@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="div1">
+            <h2>Book Here</h2>
+            <form acion="bookingform">
+                <input type="text" id="name" placeholder="Enter Name" class="user" autofocus><br>
+                <input type="email" id="email" placeholder="Enter Email" class="mail"><br>
+                <input type="number" id="phonenumber" placeholder="Mobile Number" class="user" min="10"><br>
+                <input type="datetime-local" id="bookingdate" placeholder="Booking Date(DD/MM/YY)" class="pass"><br>
+                <label for="roomnumber">Select Room Number</label>
+                <select id="roomnumber">
+                    <option value="111">111</option>
+                    <option value="112">112</option>
+                    <option value="113">113</option>
+                    <option value="114">114</option>
+                </select>
+                <input type="submit" value="Book" class="button">
+
+            </form>
+            
+        </div>
+    </section>
+   <script src="book.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+  
+
+
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    
+ 
+  
+
+</body>
+</html>
